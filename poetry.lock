@@ -903,6 +903,31 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "schedule"
+version = "1.2.2"
+description = "Job scheduling for humans."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "schedule-1.2.2-py3-none-any.whl", hash = "sha256:5bef4a2a0183abf44046ae0d164cadcac21b1db011bdd8102e4a0c1e91e06a7d"},
+    {file = "schedule-1.2.2.tar.gz", hash = "sha256:15fe9c75fe5fd9b9627f3f19cc0ef1420508f9f9a46f45cd0769ef75ede5f0b7"},
+]
+
+[package.extras]
+timezone = ["pytz"]
+
+[[package]]
+name = "schedules"
+version = "1.3"
+description = "Create non-blocking scheduled tasks."
+optional = false
+python-versions = "*"
+files = [
+    {file = "schedules-1.3-py3-none-any.whl", hash = "sha256:36c2b57da125d275944d82c23eb59533b506253c8e08aefd302f51ae22ad3969"},
+    {file = "schedules-1.3.tar.gz", hash = "sha256:855621d01996ad3303dea930955ad9cd7c0841e848fcf6f52aa4415b16944d98"},
+]
+
+[[package]]
 name = "six"
 version = "1.17.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1273,4 +1298,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "fbacba8864c7e6e52b1f36625f7fca2055bd08af21abe8c410c31a64f8d87129"
+content-hash = "b0756105a232837a73c56a7ae9d660415088ab680935b8af596515bda7e182b4"
