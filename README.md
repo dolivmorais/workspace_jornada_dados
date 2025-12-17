@@ -1,1 +1,1 @@
-# workspace_jornada_dados
+# ws03_duckdb_dbt
